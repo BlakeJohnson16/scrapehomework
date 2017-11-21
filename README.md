@@ -1,2 +1,0 @@
-# scrapehomework
-hearthstone reddit scrape
