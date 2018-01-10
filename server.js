@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
-app.use(express.static('public'));
+app.use(express.static('Views'));
 
-mongoose.connect('mongodb://localhost/3000');
+mongoose.connect('mongodb://localhost/local');
 var db = mongoose.connection;
 
 db.on('error', function(err) {
